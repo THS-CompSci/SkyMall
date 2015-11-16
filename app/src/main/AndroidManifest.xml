@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.twistedx.store" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".car"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".g6"
+            android:label="@string/title_activity_g6" >
+        </activity>
+        <activity
+            android:name=".ip"
+            android:label="@string/title_activity_ip" >
+        </activity>
+        <activity
+            android:name=".isuzu"
+            android:label="@string/title_activity_isuzu" >
+        </activity>
+        <activity
+            android:name=".lambo"
+            android:label="@string/title_activity_lambo" >
+        </activity>
+        <activity
+            android:name=".Meneraloilpc"
+            android:label="@string/title_activity_meneraloilpc" >
+        </activity>
+        <activity
+            android:name=".Superpc"
+            android:label="@string/title_activity_superpc" >
+        </activity>
+        <activity
+            android:name=".thinkpad"
+            android:label="@string/title_activity_thinkpad" >
+        </activity>
+        <activity
+            android:name=".shinkansen"
+            android:label="@string/title_activity_shinkansen" >
+        </activity>
+        <activity
+            android:name=".dell"
+            android:label="@string/title_activity_dell" >
+        </activity>
+
+        <activity
+            android:name=".Hershey"
+            android:label="hershey" >
+        </activity>
+        <activity
+            android:name=".Starwars"
+            android:label="starwars" >
+        </activity>
+        <activity
+            android:name=".Snickers"
+            android:label="snickers" >
+        </activity>
+        <activity
+            android:name=".Cottoncandy"
+            android:label="cottoncandy" >
+        </activity>
+        <activity
+            android:name=".Playstation4"
+            android:label="playstation4" >
+        </activity>
+        <activity
+            android:name=".Callofduty"
+            android:label="callofduty" >
+        </activity>
+        <activity
+            android:name=".Pokemon"
+            android:label="pokemon" >
+        </activity>
+        <activity
+            android:name=".Pokemon1"
+            android:label="pokemon1" >
+        </activity>
+        <activity
+            android:name=".Butterfingers"
+            android:label="butterfingers" >
+        </activity>
+        <activity
+            android:name=".MM"
+            android:label="mm" >
+        </activity>
+
+
+
+
+
+
+
+        <activity
+            android:name=".SkyMallBetterVersion"
+            android:label="@string/title_activity_sky_mall_better_version" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
