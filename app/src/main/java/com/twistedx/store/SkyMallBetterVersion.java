@@ -3,6 +3,7 @@ package com.twistedx.store;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -49,7 +50,7 @@ public class SkyMallBetterVersion extends Activity implements
                 listView1.getItemAtPosition(position);
 
         Intent intent = null;
-
+        Log.i("SkyMallBetterVersion",itemValue);
         if (itemValue == "Honda Civic") {
             intent = new Intent(this, car.class);
         }
