@@ -22,8 +22,41 @@ public class SkyMallBetterVersion extends Activity implements
     private ListView listView1;
     private ArrayAdapter<String> listAdapter1;
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+    // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_sky_mall_better_version, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
-    @Override
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_create_order:
+                //Code to run when the Create Order item is clicked
+                String itemValue = "Added To Cart";
+                Toast.makeText(getApplicationContext(), itemValue,
+                        Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.action_settings:
+                //Code to run when the settings item is clicked
+                String settings = "WELCOME TO THE SKY MALL";
+                Toast.makeText(getApplicationContext(), settings,
+                        Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.action_info:
+                //Code to run when the settings item is clicked
+                String info = "Buy All The Products :)";
+                Toast.makeText(getApplicationContext(), info,
+                        Toast.LENGTH_LONG).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
+
+
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sky_mall_better_version);
